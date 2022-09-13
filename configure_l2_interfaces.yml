@@ -9,6 +9,10 @@
       aoscx_vlan:
         vlan_id: 300
         name: Building-3
+    - name: Create VLAN 302
+      aoscx_vlan:
+         vlan_id: 302
+         name: Building-4
 
     - name: Create VLAN 400
       aoscx_vlan:
