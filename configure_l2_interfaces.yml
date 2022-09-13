@@ -15,11 +15,11 @@
         vlan_id: 400
         description: Building-4
 
-    - name: Configure Interface 1/1/11 - vlan trunk allowed 300,400 , vlan trunk native 300
+    - name: Configure Interface 1/1/11 - vlan trunk allowed 300,400,302 , vlan trunk native 300
       aoscx_l2_interface:
         interface: 1/1/11
         vlan_mode: trunk
-        vlan_trunks: ['400','300']
+        vlan_trunks: ['400','300','302']
         native_vlan_id: '300'
 
     - name: Configure Interface 1/1/12 - vlan access 300
